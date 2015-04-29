@@ -1,0 +1,15 @@
+route_name:
+  controller: ControllerClassName
+  action: ActionName
+
+route_home:
+  controller: Taf\Controllers\Hello
+  action: helloWorldAction
+
+route_getName:
+  controller: Taf\Controllers\Hello
+  action: nameAction
+
+route_404:
+  controller: Taf\Controllers\Error
+  action: error404Action
