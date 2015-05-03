@@ -1,19 +1,19 @@
-route_name:
+name:
   controller: ControllerClassName
   action: ActionName
 
-route_home:
+home:
   controller: Taf\Controllers\Hello
   action: helloWorldAction
 
-route_getName:
+getName:
   controller: Taf\Controllers\Hello
   action: nameAction
 
-route_404:
+404:
   controller: Taf\Controllers\Error
   action: error404Action
 
-user_list:
+userlist:
   controller: Taf\Controllers\UserController
   action: listAction
