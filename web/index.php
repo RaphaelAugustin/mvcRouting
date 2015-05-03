@@ -1,4 +1,5 @@
 <?php
+
 require '../vendor/autoload.php';
 
 use Symfony\Component\HttpFoundation\Request;
@@ -37,3 +38,4 @@ $response = $controller->$action($request);
 if ($response instanceof Response) {
     $response->send();
 }
+

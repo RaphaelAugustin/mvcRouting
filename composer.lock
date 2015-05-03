@@ -4,7 +4,11 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "hash": "f9200c532999f189cadba14ae2be6e70",
+=======
+    "hash": "3e7e0e1d684bea0079e6d7a43dc69bcb",
+>>>>>>> 034b37e05dfb0d0791efd79d15a7a5c591fe8f68
     "packages": [
         {
             "name": "symfony/http-foundation",
@@ -109,6 +113,7 @@
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
             "time": "2015-03-30 15:54:10"
+<<<<<<< HEAD
         },
         {
             "name": "twig/twig",
@@ -166,6 +171,8 @@
                 "templating"
             ],
             "time": "2015-04-19 08:30:27"
+=======
+>>>>>>> 034b37e05dfb0d0791efd79d15a7a5c591fe8f68
         }
     ],
     "packages-dev": [],
