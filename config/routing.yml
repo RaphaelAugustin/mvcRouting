@@ -13,3 +13,7 @@ route_getName:
 route_404:
   controller: Taf\Controllers\Error
   action: error404Action
+
+user_list:
+  controller: Taf\Controllers\UserController
+  action: listAction
