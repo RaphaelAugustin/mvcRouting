@@ -1,2 +1,5 @@
 # MVC Framework
-mettre les instruction et info du projet.
+
+For the project, you need "composer", and execute this command to use the project.
+
+    - composer install
