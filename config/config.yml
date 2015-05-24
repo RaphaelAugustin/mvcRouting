@@ -1,0 +1,8 @@
+    doctrine:
+        dbal:
+            driver:   pdo_mysql
+            dbname:   mvc_framework
+            user:     root
+            password: null
+            host:     localhost
+            charset:  UTF8

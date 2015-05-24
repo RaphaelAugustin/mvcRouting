@@ -10,7 +10,7 @@ namespace Taf\Controllers;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class Hello
+class Hello extends AbstractBaseController
 {
     protected $twig;
 
