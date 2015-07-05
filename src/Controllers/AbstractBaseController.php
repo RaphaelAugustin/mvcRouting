@@ -10,6 +10,8 @@ namespace Taf\Controllers;
 
 
 use Symfony\Component\Yaml\Yaml;
+use Taf\Model\UserManager;
+
 
 class AbstractBaseController {
 
@@ -22,5 +24,9 @@ class AbstractBaseController {
 
 
         return \Doctrine\DBAL\DriverManager::getConnection($connectionParams, $config);
+    }
+
+    protected function getUserManager() {
+        return new UserManager($this->getConnection());
     }
 }

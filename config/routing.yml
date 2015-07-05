@@ -3,17 +3,13 @@ route_name:
   action: ActionName
 
 home:
-  controller: Taf\Controllers\Hello
-  action: helloWorldAction
-
-getName:
-  controller: Taf\Controllers\Hello
-  action: nameAction
+  controller: Taf\Controllers\PageController
+  action: getHome
 
 404:
   controller: Taf\Controllers\Error
   action: error404Action
 
-userlist:
+userList:
   controller: Taf\Controllers\UserController
-  action: listAction
+  action: userListAll
